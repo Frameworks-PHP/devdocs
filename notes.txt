@@ -1,0 +1,18 @@
+https://github.com/Thibaut/devdocs
+http://devdocs.io/
+https://github.com/bundler/bundler/blob/master/ISSUES.md
+
+——————
+Installation
+
+git clone https://github.com/Thibaut/devdocs.git && cd devdocs
+gem install bundler
+bundle install
+gem install thor
+bundle update
+thor docs:download --default
+bundle exec rackup
+
+——————
+bundle exec rackup
+Running: localhost:9292
